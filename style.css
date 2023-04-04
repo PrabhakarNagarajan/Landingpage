@@ -1,0 +1,56 @@
+.header {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  padding: 42px;
+  justify-content: space-around;
+  border: 1px white;
+}
+.head-link-container {
+  display: flex;
+  margin-top: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+ul {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  cursor: pointer;
+}
+.logo {
+  display: flex;
+  font-size: 40px;
+  color: #f9faf8;
+  margin-top: 0;
+  flex-direction: column;
+  cursor: pointer;
+}
+.logo-des-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.header-sign {
+  background-color: #3882f6;
+  width: 40%;
+  border: #1f2937;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+img {
+  width: 70%;
+  /* height: 60%; */
+}
