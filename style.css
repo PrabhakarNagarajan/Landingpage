@@ -68,12 +68,24 @@ img {
   border-radius: 10px;
 }
 
-.info-box-container {
+.box-model-con {
   display: flex;
-
-  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.info-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .information-text {
   display: flex;
   justify-content: center;
@@ -82,9 +94,9 @@ img {
   margin: 20px;
 }
 .box-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
   gap: 10px;
 }
 p {
@@ -96,4 +108,34 @@ p {
   width: 50%;
   margin: 0;
   padding: 0;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 99px;
+}
+
+.quotes-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-quotes {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  text-align: center;
+  width: 70%;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.author-name {
+  font-size: 25px;
+  font-weight: 900;
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
 }
